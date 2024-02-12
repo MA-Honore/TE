@@ -4,7 +4,7 @@
 Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 
 
-## Authors
+## Auteurs
 
 - Marc-Antoine Honoré
 - Phuong Linh Ngo
