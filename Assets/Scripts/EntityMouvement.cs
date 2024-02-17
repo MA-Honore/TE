@@ -22,9 +22,7 @@ public class EntityMouvement : MonoBehaviour
         speedY = Input.GetAxisRaw("Vertical");
     }
 
-    void FixedUpdate() {
-
-        if (speedX==0.0f) {Debug.Log("test");}         
+    void FixedUpdate() {      
         rb.velocity = new Vector2(speedX, speedY).normalized  * speed;
 
     }
