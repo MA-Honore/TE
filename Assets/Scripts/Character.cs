@@ -14,9 +14,7 @@ public class Character : MonoBehaviour
 		_Inventory = new Inventory();
 	}
 
-	public void dash() {
 
-	}
 
 	void start() {
 		_Inventory.Display();
