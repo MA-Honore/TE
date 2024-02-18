@@ -4,53 +4,62 @@ using UnityEngine;
 
 public class InventorySlot
 {
-    private ItemDefinition _Item;
-    private int _Quantity;
+    private ItemDefinition item;
+    private int quantity;
     private Inventory _Inventory;
 
     public InventorySlot(Inventory inventory) {
         this._Inventory = inventory;
     }
 
-    public ItemDefinition getItem() {
-        return this._Item;
+    public ItemDefinition GetItem() {
+        return this.item;
     }
 
-    public int getQuantity() {
-        return this._Quantity;
+    public int GetQuantity() {
+        return this.quantity;
     }
 
-    public void setItem(ItemDefinition item) {
-        this._Item = item;
-        this._Quantity = 0;
+    public void SetItem(ItemDefinition item) {
+        this.item = item;
+        this.quantity = 0;
+    }
+
+    public void SetItem(ItemDefinition item, int quantity) {
+        this.item = item;
+        this.quantity = quantity;
     }
 
     public int AddQuantity(int quantity)
     {
-        if(this._Item == null) {
+        if(this.item == null) {
             return 0;
         }
 
-        if(quantity + this._Quantity > this._Item.maxStack) {
-            int remaining = (quantity + this._Quantity) - this._Item.maxStack;
-            this._Quantity = this._Item.maxStack;
+        if(quantity + this.quantity > this.item.maxStack) {
+            int remaining = (quantity + this.quantity) - this.item.maxStack;
+            this.quantity = this.item.maxStack;
             return remaining;
         } else {
-            this._Quantity += quantity;
+            this.quantity += quantity;
             return 0;
         }
     }
 
-    public void emptySlot() {
-        this._Item = null;
-        this._Quantity = 0;
+    public void EmptySlot() {
+        this.item = null;
+        this.quantity = 0;
     }
 
-    public void removeQuantity(int quantity)
+    public bool IsSlotEmpty() {
+        return this.item == null;
+    }
+
+    public void RemoveQuantity(int quantity)
     {
-        this._Quantity -= quantity;
-        if(this._Quantity <= 0) {
-            this.emptySlot();
+        this.quantity -= quantity;
+        if(this.quantity <= 0) {
+            this.EmptySlot();
         }
     }
 

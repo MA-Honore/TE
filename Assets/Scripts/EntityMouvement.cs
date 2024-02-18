@@ -7,6 +7,7 @@ public class EntityMouvement : MonoBehaviour
     public float speed = 5.0f;
     float speedX, speedY;
 
+
     Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -23,7 +24,7 @@ public class EntityMouvement : MonoBehaviour
     }
 
     void FixedUpdate() {      
-        rb.velocity = new Vector2(speedX, speedY).normalized  * speed;
-
+        rb.velocity = new Vector2(speedX, speedY).normalized  * speed * Time.deltaTime;
+        
     }
 }
