@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class CollectibleItem : MonoBehaviour
 {
@@ -17,5 +18,16 @@ public class CollectibleItem : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void onCollisionEnter(Collision other)
+    {
+         Debug.Log("Collision Detected");
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("Item Collected");
+            //Inventory.instance.AddItem(itemDefinition);
+            Destroy(gameObject);
+        }
     }
 }
