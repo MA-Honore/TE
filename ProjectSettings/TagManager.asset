@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - CollectibleItems
+=======
+  - Teleporter
+>>>>>>> d08ac2760d1a3c67df9f48ddee3c720a092ed831
   layers:
   - Default
   - TransparentFX
