@@ -5,20 +5,16 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ItemDefinition")]
 public class ItemDefinition : ScriptableObject
 {
-    public int id;
-    public new string name;
-    public int maxStack;
+    [field: SerializeField]
+    public bool isStackable { get; set; }
 
+    [field: SerializeField]
+    public new string name { get; set; }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [field: SerializeField]
+    public int maxStack { get; set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [field: SerializeField]
+    [field: TextArea]
+    public string description { get; set; }
 }

@@ -4,20 +4,12 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-	
-	private Inventory _Inventory;
-	private Stamina _Stamina;
+	[SerializeField]
+	private Inventory inventory;
  
-	public Character(int staminaMax)
+	void Awake()
 	{
-		_Stamina = new Stamina(staminaMax);
-		_Inventory = new Inventory();
-	}
-
-
-
-	void start() {
-		_Inventory.Display();
+		inventory = GetComponent<Inventory>();
 	}
 	
 }

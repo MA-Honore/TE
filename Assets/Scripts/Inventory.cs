@@ -5,17 +5,22 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    List<InventorySlot> Items;
- 
-	public Inventory()
-	{
+    List<InventorySlot> items;
 
-		Items = new List<InventorySlot>();
+	public int size = 4;
+ 
+	public void init()
+	{
+		items = new List<InventorySlot>();
+		for(int i=0; i<size; i++)
+		{
+			items.Add(new InventorySlot(this));
+		}
 	}
 
 	public int AddItem(ItemDefinition item, int amount)
 	{
-		InventorySlot slot = Items.Find(x => (x.getItem() == item && x.getQuantity() < item.maxStack));
+		InventorySlot slot = items.Find(x => (x.GetItem() == item && x.GetQuantity() < item.maxStack));
 		if (slot != null)
 		{
 			int remaining = slot.AddQuantity(amount);
@@ -26,10 +31,11 @@ public class Inventory : MonoBehaviour
 			return remaining;
 		
 		} else {
-			slot = Items.Find(x => x.getItem() == null);
+			
+			slot = items.Find(x => x.IsSlotEmpty());
 			if(slot != null)
 			{
-				slot.setItem(item);
+				slot.SetItem(item);
 				int remaining = slot.AddQuantity(amount);
 				if(remaining > 0)
 				{
@@ -37,10 +43,12 @@ public class Inventory : MonoBehaviour
 				}
 				return remaining;
 			} else {
-				return amount;
+				return 10;
 			}
 		}
 	}
+
+	
 
 	public void RemoveItem(ItemDefinition item, int amount)
 	{
@@ -49,19 +57,26 @@ public class Inventory : MonoBehaviour
 	}
  	
 	public void Display() {
-		foreach(InventorySlot slot in Items) {
-			if(slot.getItem() != null) {
-				Debug.Log(slot.getItem().name + " " + slot.getQuantity());
+		int i=1;
+		foreach(InventorySlot slot in items) {
+			if(!slot.IsSlotEmpty()) {
+				Debug.Log(i + " | Item: " + slot.GetItem().name + " | Nombre: " + slot.GetQuantity());
+				i++;
 			}
 		}
+	}
+
+	public bool IsFull() {
+		return items.Find(x => x.IsSlotEmpty()) == null;
 	}
 	
 
 	void Awake() {
+		init();
 	}
 
 	void Start() {
-		this.Display();
+		
 	}
 
 	void Update() {
