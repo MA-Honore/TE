@@ -18,6 +18,7 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 - Faire les boutons du main menu
 - Faire le remove de l'inventaire
 - Systeme d'outils/Armes
+- Faire un nouveau perso avec un Animator
 
 ## To-do list UI
 
