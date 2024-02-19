@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - CollectibleItems
-=======
   - Teleporter
->>>>>>> d08ac2760d1a3c67df9f48ddee3c720a092ed831
+  - NextTeleport
+  - PreviousTeleport
   layers:
   - Default
   - TransparentFX
@@ -45,10 +43,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: background
-    uniqueID: 1252001039
-    locked: 0
-  - name: foreground
-    uniqueID: 3273953
     locked: 0
