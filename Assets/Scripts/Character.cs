@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
  
 	void Awake()
 	{
-		inventory = new Inventory();
+		inventory = GetComponent<Inventory>();
 	}
 	
 }

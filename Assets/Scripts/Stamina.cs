@@ -4,36 +4,35 @@ using UnityEngine;
 
 public class Stamina : MonoBehaviour
 {
-    private int _Stamina;
-    private int _StaminaMax;
+    [SerializeField]
+    private int stamina;
 
-    public int StaminaValue
-    {
-        get => _Stamina;
-    }
-
-    public int StaminaMax
-    {
-        get => _StaminaMax;
-    }
-
-    public Stamina(int staminaMax)
-    {
-        _StaminaMax = staminaMax;
-        _Stamina = _StaminaMax;
-    }
+    [SerializeField]
+    private int staminaMax;
 
     public void DecreaseStamina(int value)
     {
-        _Stamina -= value;
-        _Stamina = _Stamina < 0 ? 0 : _Stamina;
+        stamina -= value;
+        stamina = stamina < 0 ? 0 : stamina;
     }
 
     public void IncreaseStamina(int value)
     {
-        _Stamina += value;
-        _Stamina = _Stamina > _StaminaMax ? _StaminaMax : _Stamina;
+        stamina += value;
+        stamina = stamina > staminaMax ? staminaMax : stamina;
     }
+
+    public int GetStamina()
+    {
+        return stamina;
+    }
+
+    public int GetStaminaMax()
+    {
+        return staminaMax;
+    }
+
+
 
     void Start()
     {

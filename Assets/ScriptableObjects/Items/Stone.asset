@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf1e4c6092e4303489dfd13491d419db, type: 3}
   m_Name: Stone
   m_EditorClassIdentifier: 
-  Id: 2
-  Name: Stone
-  MaxStack: 50
+  <isStackable>k__BackingField: 1
+  <name>k__BackingField: Stone
+  <maxStack>k__BackingField: 64
+  <description>k__BackingField: 
