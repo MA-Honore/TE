@@ -5,43 +5,52 @@ using UnityEngine;
 public class Stamina : MonoBehaviour
 {
     [SerializeField]
-    private int stamina;
+    private float stamina;
 
     [SerializeField]
-    private int staminaMax;
+    private float staminaMax;
 
-    public void DecreaseStamina(int value)
+    [SerializeField]
+    private float regenRate;
+
+
+    public void DecreaseStamina(float value)
     {
         stamina -= value;
         stamina = stamina < 0 ? 0 : stamina;
     }
 
-    public void IncreaseStamina(int value)
+    public void IncreaseStamina(float value)
     {
         stamina += value;
         stamina = stamina > staminaMax ? staminaMax : stamina;
     }
 
-    public int GetStamina()
+    public float GetStamina()
     {
         return stamina;
     }
 
-    public int GetStaminaMax()
+    public float GetStaminaMax()
     {
         return staminaMax;
     }
 
-
-
     void Start()
     {
-        
+        stamina = staminaMax;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        if(stamina < staminaMax)
+        {
+            IncreaseStamina(regenRate);
+        }
     }
+
+    
+
+    
 }
