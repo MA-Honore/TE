@@ -15,7 +15,7 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 
 ## Semaine 1 - Inventaire
 - Inventaire 🛠️
-- Drag & Drop ❌
+- Drag & Drop 🛠️
 - Système de Crafting ❌
 
 ## Semaine 2 - Les déplacements
@@ -23,6 +23,7 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 - Dash ✅
 - Sprint ✅
 - Stamina ✅
+- Animation 🛠️
 
 ## Semaine 3 - Les Scènes
 - MainMenu 🛠️
