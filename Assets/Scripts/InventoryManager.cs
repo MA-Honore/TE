@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
+	public static InventoryManager instance;
+
     public InventorySlot[] allSlots;
 	public InventorySlot[] barSlots;
 	public GameObject inventoryItemPrefab;
@@ -92,7 +94,7 @@ public class InventoryManager : MonoBehaviour
 	// Monobehaviour
 	// -------------------------
 	void Awake() {
-		
+		instance = this;
 	}
 
 	void Start() {

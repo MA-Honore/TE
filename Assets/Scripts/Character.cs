@@ -5,6 +5,9 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
 	
+	public InventoryManager inventory;
+
+	
 	void Awake()
 	{
 		
