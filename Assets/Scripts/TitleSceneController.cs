@@ -5,19 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class TitleSceneController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void ClickStart() {
         SceneManager.LoadScene("HubWorld");
+    }
+
+    public void QuitGame(){
+        Application.Quit();
+        Debug.Log("Quit");
     }
 }
