@@ -3,18 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "ItemDefinition")]
-public class ItemDefinition : ScriptableObject
-{
-    [field: SerializeField]
-    public bool isStackable { get; set; }
+public class ItemDefinition : ScriptableObject {
 
-    [field: SerializeField]
-    public new string name { get; set; }
-
-    [field: SerializeField]
-    public int maxStack { get; set; }
-
-    [field: SerializeField]
+    public new string name;
+    public int maxStack = 64;
+    public bool isStackable = true;
+    public ItemType type;
+    public Sprite image;
+    
+    
     [field: TextArea]
-    public string description { get; set; }
+    public string description;
 }
+
+public enum ItemType
+{
+    Consumable,
+    Equipment,
+    Ressource
+}
+
+

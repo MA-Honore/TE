@@ -2,21 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class ItemCollectible : MonoBehaviour
 {
-    [SerializeField]
-    public bool IsStackable { get; set; }
-
-    [SerializeField]
-    ItemDefinition itemDefinition;
-    int amount = 1;
+    
+    public ItemDefinition itemDefinition;
+    
+    
+    private SpriteRenderer spriteRenderer;
 
     public ItemDefinition GetItemDefinition()
     {
         return itemDefinition;
     }
 
+    void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = itemDefinition.image;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -33,8 +38,7 @@ public class ItemCollectible : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<Inventory>().AddItem(itemDefinition, amount);
-            other.gameObject.GetComponent<Inventory>().Display();
+            InventoryManager.instance.AddItem(itemDefinition);
             Destroy(gameObject);
         }
     }

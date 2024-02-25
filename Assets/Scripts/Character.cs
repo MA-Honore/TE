@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-	[SerializeField]
-	private Inventory inventory;
- 
+	
+	public InventoryManager inventory;
+
+	
 	void Awake()
 	{
-		inventory = GetComponent<Inventory>();
+		
 	}
 	
 }
