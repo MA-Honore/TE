@@ -26,7 +26,7 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 - Animation ✅
 
 ## Semaine 3 - Les Scènes
-- MainMenu 🛠️
+- MainMenu ✅
 - GameWorld 🛠️
 - HubWorld 🛠️
 
