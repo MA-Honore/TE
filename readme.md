@@ -20,7 +20,7 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 
 ## Semaine 2 - Les déplacements
 - Déplacements ✅
-- Dash ✅
+- Dash, ignore collision si point d'arrivé est valide ✅
 - Sprint ✅
 - Stamina ✅
 - Animation 🛠️
@@ -35,6 +35,14 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 	- Ready ❌
 	- CoolDown ❌
 	- Disabled ❌
+ - Entrée dans le portail par collision ❌
+ - Si on rentre dans le portail alors qu'il est en cooldown, alors il devient Disabled ❌
+
+## Semaine 5 - Intéragir avec le monde
+- Pouvoir Intéragir avec les objets interactables (coffres, ressources, outils, ...), avec distance paramétrable ❌
+- 2 types de piège dans gameworld, déclenché en marchant dessus ❌
+	- Vie : Enlève de la vie au joueur ❌
+   	- Vitesse : Ralenti la vitesse du joueur pour un temps donné ❌
 
 ## To-do list
 
