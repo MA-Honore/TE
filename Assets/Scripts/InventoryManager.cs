@@ -42,7 +42,7 @@ public class InventoryManager : MonoBehaviour
 				}
 			}
 		}
-		Debug.Log("Item is not stackable");
+		
 		// Sinon, on cherche un slot vide pour ajouter l'item
 		for(int i = 0; i < allSlots.Length; i++) {
 			 slot = allSlots[i];
