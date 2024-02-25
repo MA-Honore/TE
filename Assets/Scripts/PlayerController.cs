@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
     }
     private void OnMove(InputValue value){
         _axisInput = value.Get<Vector2>();
+        Debug.Log(_axisInput);
         if(_axisInput != Vector2.zero){
             _facingDir = _axisInput;
         }
