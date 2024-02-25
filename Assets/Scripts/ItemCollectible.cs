@@ -33,8 +33,8 @@ public class ItemCollectible : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<Inventory>().AddItem(itemDefinition, amount);
-            other.gameObject.GetComponent<Inventory>().Display();
+            //other.gameObject.GetComponent<Inventory>().AddItem(itemDefinition, amount);
+            //other.gameObject.GetComponent<Inventory>().Display();
             Destroy(gameObject);
         }
     }

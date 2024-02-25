@@ -49,7 +49,19 @@ public class EntityMouvement : MonoBehaviour
         dashKey = Input.GetKeyDown(KeyCode.Q);
 
         if (dashKey && canDash && (staminaController.GetStamina() >= staminaMinimumDash)) {
-            StartCoroutine(Dash());
+            Debug.Log("Dash");
+            Debug.Log("Position: " + transform.position);
+            Debug.Log("Destination: " + new Vector3(transform.position.x + direction.x * dashSpeed, transform.position.y + direction.y * dashSpeed, 0));
+            
+            RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x + direction.x * dashSpeed, transform.position.y + direction.y * dashSpeed), new Vector2(transform.position.x + direction.x * dashSpeed, transform.position.y + direction.y * dashSpeed), 8);
+            
+            if (hit.collider != null)
+            {
+                Debug.Log(hit.collider.gameObject.name);
+            }
+            
+            
+            
         }
     }
 
@@ -75,10 +87,12 @@ public class EntityMouvement : MonoBehaviour
         isDashing = true;
         canDash = false;
         Debug.Log("Dash");
+        rb.isKinematic = true;
         rb.velocity = new Vector2(direction.x * dashSpeed, direction.y * dashSpeed);
         staminaController.DecreaseStamina(staminaDecreaseDash);
         yield return new WaitForSeconds(dashTime);
         isDashing = false;
+        rb.isKinematic = false;
 
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
