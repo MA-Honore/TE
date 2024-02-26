@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c44569a75bd6e142bdbcebbe36c2f33
+guid: ff35ccab1d1b9374e80238bb484ee149
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,463 +123,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_0
+      name: Portal Blue Sprite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d5fc793c5921a449995a3ce7e2eff2
-      internalID: -44931698
+      spriteID: c5b31461c2ec82b439fa88156a5679d0
+      internalID: 502977233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_1
+      name: Portal Blue Sprite_1
       rect:
         serializedVersion: 2
         x: 64
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61f230356af2009489e4a332dc9135a4
-      internalID: -1559527667
+      spriteID: 94809c472ec39644c835f2d17a90d0c7
+      internalID: 1405875868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_2
+      name: Portal Blue Sprite_2
       rect:
         serializedVersion: 2
         x: 128
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c81e268144f4144ad43b36678713cd
-      internalID: -1351773866
+      spriteID: ed41770a75de833449f658e4a7398fce
+      internalID: -1335534385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_3
+      name: Portal Blue Sprite_3
       rect:
         serializedVersion: 2
         x: 192
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eefc2ad47b0e71e4cb6e1aef09a4ad51
-      internalID: -166841395
+      spriteID: 8d90022e2d677d44d9ad919057206668
+      internalID: 1899672134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_4
+      name: Portal Blue Sprite_4
       rect:
         serializedVersion: 2
         x: 256
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 474398c107f0552439cdd42951673100
-      internalID: -1163770178
+      spriteID: 786dd04da295f3e4caa3372eb1d3f9b2
+      internalID: 61126342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_5
+      name: Portal Blue Sprite_5
       rect:
         serializedVersion: 2
         x: 320
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f442fe807d5ec4498f091a5b332351a
-      internalID: 352728462
+      spriteID: fb16556051366b747b08be5805bc2399
+      internalID: 2020452693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_6
+      name: Portal Blue Sprite_6
       rect:
         serializedVersion: 2
         x: 384
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911ed46d60e82574da1a416fde8d84a5
-      internalID: 47079343
+      spriteID: 34581bc8c03ca4e439a1186d3d48d235
+      internalID: -1388652769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_7
+      name: Portal Blue Sprite_7
       rect:
         serializedVersion: 2
         x: 448
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93301e8fbc9782d449be3e50d0b1a2c5
-      internalID: 1839385943
+      spriteID: 511690fb99b645b4e9c6855d81f2f56b
+      internalID: -1557171098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_8
+      name: Portal Blue Sprite_8
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79cf4da6b418cb44497c88af21622083
-      internalID: -1192243722
+      spriteID: 2ab737bef1a88f540842f1d7b3975fff
+      internalID: -1657111338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_9
+      name: Portal Blue Sprite_9
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655f8af04644e38428982478d6c9ce06
-      internalID: -1030581283
+      spriteID: 547bb691037632645b1d7717d1818ebf
+      internalID: 793431221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_10
+      name: Portal Blue Sprite_10
       rect:
         serializedVersion: 2
         x: 128
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623cfdca2a19f1e4db4f6c176af73de1
-      internalID: 1659604171
+      spriteID: 73939825ff59cb54cb5547f15b4e7f1c
+      internalID: 883796493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_11
+      name: Portal Blue Sprite_11
       rect:
         serializedVersion: 2
         x: 192
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fef2218ab6a2344caa32a3202008e4c
-      internalID: -1779450453
+      spriteID: d25d9d22761cce74987be3700c7f1c62
+      internalID: 594207123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_12
+      name: Portal Blue Sprite_12
       rect:
         serializedVersion: 2
         x: 256
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd966ce3deb68d74aa99763f37590864
-      internalID: -673194093
+      spriteID: 177d8b36b663a7f4d96131eaae112b47
+      internalID: -1419278195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_13
+      name: Portal Blue Sprite_13
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a98b980fa57cd4fba2df6aeafa2a76
-      internalID: -27449439
+      spriteID: a0c3055b1bd4f114eaca62b5e148e597
+      internalID: -645320709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_14
+      name: Portal Blue Sprite_14
       rect:
         serializedVersion: 2
         x: 384
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e38469660c9cfd4cb652cb5fb724a89
-      internalID: -1867445251
+      spriteID: a043aa33a58a60347ac36a3c06d28e02
+      internalID: -817373901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_15
+      name: Portal Blue Sprite_15
       rect:
         serializedVersion: 2
         x: 448
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af8c8020f089b5e468d34186a048a3a5
-      internalID: -551024743
+      spriteID: 18bc7de6c249bb946a46c396aed66134
+      internalID: -614330267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_16
+      name: Portal Blue Sprite_16
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dfc281513064484bb9f26d267e8f6b6
-      internalID: -1815499897
+      spriteID: 8c85e2108fd701f4f953797773891f85
+      internalID: 1800432500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_17
+      name: Portal Blue Sprite_17
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aabd8b9867ae0543b47862b7f4cbcf4
-      internalID: 1196291687
+      spriteID: d3eb903e63885f541a69f0814f027e4a
+      internalID: 857826606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_18
+      name: Portal Blue Sprite_18
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f1ac5d89b0724439217389ffebb689
-      internalID: -602471960
+      spriteID: b69288f7c0c3ad6488d87d47656022b5
+      internalID: -1451482475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_19
+      name: Portal Blue Sprite_19
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39ceebead3945464687413617259f60b
-      internalID: 1824844499
+      spriteID: 72406c80ac2621041b1f537201037461
+      internalID: 1076843852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_20
+      name: Portal Blue Sprite_20
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ab310d8af1850b4885e967fec22ba57
-      internalID: 358681441
+      spriteID: a91cb3ff8c8e8164f9969b2de524365d
+      internalID: 1886173623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Portal Sprite Sheet_21
+      name: Portal Blue Sprite_21
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e87b51134440e00429fb789d1c037bb5
-      internalID: -525696839
+      spriteID: fc5357cac92558541b48bfd2bb1a071b
+      internalID: -702497023
       vertices: []
       indices: 
       edges: []
@@ -595,28 +595,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Purple Portal Sprite Sheet_0: -44931698
-      Purple Portal Sprite Sheet_1: -1559527667
-      Purple Portal Sprite Sheet_10: 1659604171
-      Purple Portal Sprite Sheet_11: -1779450453
-      Purple Portal Sprite Sheet_12: -673194093
-      Purple Portal Sprite Sheet_13: -27449439
-      Purple Portal Sprite Sheet_14: -1867445251
-      Purple Portal Sprite Sheet_15: -551024743
-      Purple Portal Sprite Sheet_16: -1815499897
-      Purple Portal Sprite Sheet_17: 1196291687
-      Purple Portal Sprite Sheet_18: -602471960
-      Purple Portal Sprite Sheet_19: 1824844499
-      Purple Portal Sprite Sheet_2: -1351773866
-      Purple Portal Sprite Sheet_20: 358681441
-      Purple Portal Sprite Sheet_21: -525696839
-      Purple Portal Sprite Sheet_3: -166841395
-      Purple Portal Sprite Sheet_4: -1163770178
-      Purple Portal Sprite Sheet_5: 352728462
-      Purple Portal Sprite Sheet_6: 47079343
-      Purple Portal Sprite Sheet_7: 1839385943
-      Purple Portal Sprite Sheet_8: -1192243722
-      Purple Portal Sprite Sheet_9: -1030581283
+      Portal Blue Sprite_0: 502977233
+      Portal Blue Sprite_1: 1405875868
+      Portal Blue Sprite_10: 883796493
+      Portal Blue Sprite_11: 594207123
+      Portal Blue Sprite_12: -1419278195
+      Portal Blue Sprite_13: -645320709
+      Portal Blue Sprite_14: -817373901
+      Portal Blue Sprite_15: -614330267
+      Portal Blue Sprite_16: 1800432500
+      Portal Blue Sprite_17: 857826606
+      Portal Blue Sprite_18: -1451482475
+      Portal Blue Sprite_19: 1076843852
+      Portal Blue Sprite_2: -1335534385
+      Portal Blue Sprite_20: 1886173623
+      Portal Blue Sprite_21: -702497023
+      Portal Blue Sprite_3: 1899672134
+      Portal Blue Sprite_4: 61126342
+      Portal Blue Sprite_5: 2020452693
+      Portal Blue Sprite_6: -1388652769
+      Portal Blue Sprite_7: -1557171098
+      Portal Blue Sprite_8: -1657111338
+      Portal Blue Sprite_9: 793431221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class TitleSceneController : MonoBehaviour
 {
     public void ClickStart() {
-        SceneManager.LoadScene("HubWorld");
+        SceneManager.LoadScene("MacoTestInventaire2");
     }
 
     public void QuitGame(){

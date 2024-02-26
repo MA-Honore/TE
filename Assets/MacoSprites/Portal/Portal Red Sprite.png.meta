@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b2dde6bc0267eaf449ac8fa9992d2a25
+guid: 6e315016c334c6b41b3c0697268fea6d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_0
+      name: Portal Red Sprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e022a43bd74c2a4f93e527170022cbf
-      internalID: 1686416103
+      spriteID: e784a55fb3229134c85a7ef87712e554
+      internalID: -1438721594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_1
+      name: Portal Red Sprite_1
       rect:
         serializedVersion: 2
         x: 64
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3f91abcac7af504ba88e5e481de53b7
-      internalID: 1602225907
+      spriteID: e117219e4450aef4d9d4e6fe54bda1ac
+      internalID: -1405031842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_2
+      name: Portal Red Sprite_2
       rect:
         serializedVersion: 2
         x: 128
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57cefd6d415cbf5449205491ab601692
-      internalID: 1462889099
+      spriteID: 35dfdda1f060ef641902d544a74615e3
+      internalID: -1904041009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_3
+      name: Portal Red Sprite_3
       rect:
         serializedVersion: 2
         x: 192
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1896f3dffa054ee47bedf3616bd531ef
-      internalID: 1995870495
+      spriteID: 23f8d79cbba3aac4eaa9ed99d6e93411
+      internalID: -2058349094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_4
+      name: Portal Red Sprite_4
       rect:
         serializedVersion: 2
         x: 256
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed96d29c4696e042b7f58bcc563795e
-      internalID: 1775577047
+      spriteID: 6db4924683bad3449a07d8cae553df6b
+      internalID: 592859781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_5
+      name: Portal Red Sprite_5
       rect:
         serializedVersion: 2
         x: 320
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c7aa73d04c215442839730e3183074d
-      internalID: -2146307524
+      spriteID: e4c26154e6bb68c4eb61c5885d8e6012
+      internalID: 830474651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_6
+      name: Portal Red Sprite_6
       rect:
         serializedVersion: 2
         x: 384
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf6045c696dc1e4b86db2f187cc9318
-      internalID: 853045182
+      spriteID: 6aba0afdffc0293469fe0af17e5d67da
+      internalID: 1054920360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_7
+      name: Portal Red Sprite_7
       rect:
         serializedVersion: 2
         x: 448
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15047b54b74e48a40b48e77b18554dc8
-      internalID: 2062737927
+      spriteID: e15b8015362c1494e8497b1c60951194
+      internalID: 1568829029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_8
+      name: Portal Red Sprite_8
       rect:
         serializedVersion: 2
         x: 0
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c251cedb6e518c148b7692a802c3696e
-      internalID: 173163650
+      spriteID: 304b7a756fe6d4242964cecdc7b63515
+      internalID: 367061823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_9
+      name: Portal Red Sprite_9
       rect:
         serializedVersion: 2
         x: 64
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49cef32bc6e419344a9b9254ba3dc8c2
-      internalID: 634072535
+      spriteID: ca7e5e53459f2ac43bcee7e53cb541dc
+      internalID: 1360824956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_10
+      name: Portal Red Sprite_10
       rect:
         serializedVersion: 2
         x: 128
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63ade95d4ba79de46ab4074abcdacbdf
-      internalID: -1062166241
+      spriteID: c881eac50a56721448d0d2d39a61b7e4
+      internalID: -1764779839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_11
+      name: Portal Red Sprite_11
       rect:
         serializedVersion: 2
         x: 192
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e3b41aaeb0b285408bd5a10840b5039
-      internalID: 1007925318
+      spriteID: d9176ef69642d3746b9a4450e0024776
+      internalID: -1008242912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_12
+      name: Portal Red Sprite_12
       rect:
         serializedVersion: 2
         x: 256
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9babba3557960a4c96e77c0359d440b
-      internalID: 1230710774
+      spriteID: d45cd2ed6e4f5b048adb7f760ec2fa92
+      internalID: 1026733327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_13
+      name: Portal Red Sprite_13
       rect:
         serializedVersion: 2
         x: 320
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e549581b1fcf16249937d6fc53e9479e
-      internalID: 89609375
+      spriteID: 92652726d7d8a504a90319dd5360808f
+      internalID: 2079677471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_14
+      name: Portal Red Sprite_14
       rect:
         serializedVersion: 2
         x: 384
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 715a481096bc75048acd0978251e7a53
-      internalID: -1067882856
+      spriteID: e047301275995d04bb60346722c55457
+      internalID: 468265852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_15
+      name: Portal Red Sprite_15
       rect:
         serializedVersion: 2
         x: 448
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa773936d9ec5c4b9045a2033babd14
-      internalID: -803497962
+      spriteID: 5323f8b6cf5152b4ab520fc705274022
+      internalID: 93755879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_16
+      name: Portal Red Sprite_16
       rect:
         serializedVersion: 2
         x: 0
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bbbd6437c91a9e43847f90ec3012719
-      internalID: -1799826343
+      spriteID: 706cf06d3060e1a4fa364425098ccc8b
+      internalID: -67135109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_17
+      name: Portal Red Sprite_17
       rect:
         serializedVersion: 2
         x: 64
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f764c6a29fb2e4eba0456e0d239ded
-      internalID: -1929928288
+      spriteID: 59351d8896e32ad49a0f6d264ee07c31
+      internalID: 1227569817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_18
+      name: Portal Red Sprite_18
       rect:
         serializedVersion: 2
         x: 128
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7eead50ec498a43b4997a8c1d0394e
-      internalID: -464928043
+      spriteID: 87282e63edc3d314a86975842c8b3ba0
+      internalID: -1326191242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_19
+      name: Portal Red Sprite_19
       rect:
         serializedVersion: 2
         x: 192
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3459a0676c76d8e47a1e8b16b7c7790c
-      internalID: 1104719225
+      spriteID: 186fa4b9f21412c458d30a346c5710d2
+      internalID: -1673224587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_20
+      name: Portal Red Sprite_20
       rect:
         serializedVersion: 2
         x: 256
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87bb1dffbf1fd894bba76fa951b46778
-      internalID: -1389582695
+      spriteID: 4921db34935d38b40b27bb95b1e83520
+      internalID: -748205810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Portal Sprite Sheet_21
+      name: Portal Red Sprite_21
       rect:
         serializedVersion: 2
         x: 320
@@ -578,8 +578,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 384efac1cdbc52d45b8f6515950dcbf2
-      internalID: -1401994405
+      spriteID: f93d904358de2b6429d6b6395edcb402
+      internalID: 1584550393
       vertices: []
       indices: 
       edges: []
@@ -595,28 +595,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Green Portal Sprite Sheet_0: 1686416103
-      Green Portal Sprite Sheet_1: 1602225907
-      Green Portal Sprite Sheet_10: -1062166241
-      Green Portal Sprite Sheet_11: 1007925318
-      Green Portal Sprite Sheet_12: 1230710774
-      Green Portal Sprite Sheet_13: 89609375
-      Green Portal Sprite Sheet_14: -1067882856
-      Green Portal Sprite Sheet_15: -803497962
-      Green Portal Sprite Sheet_16: -1799826343
-      Green Portal Sprite Sheet_17: -1929928288
-      Green Portal Sprite Sheet_18: -464928043
-      Green Portal Sprite Sheet_19: 1104719225
-      Green Portal Sprite Sheet_2: 1462889099
-      Green Portal Sprite Sheet_20: -1389582695
-      Green Portal Sprite Sheet_21: -1401994405
-      Green Portal Sprite Sheet_3: 1995870495
-      Green Portal Sprite Sheet_4: 1775577047
-      Green Portal Sprite Sheet_5: -2146307524
-      Green Portal Sprite Sheet_6: 853045182
-      Green Portal Sprite Sheet_7: 2062737927
-      Green Portal Sprite Sheet_8: 173163650
-      Green Portal Sprite Sheet_9: 634072535
+      Portal Red Sprite_0: -1438721594
+      Portal Red Sprite_1: -1405031842
+      Portal Red Sprite_10: -1764779839
+      Portal Red Sprite_11: -1008242912
+      Portal Red Sprite_12: 1026733327
+      Portal Red Sprite_13: 2079677471
+      Portal Red Sprite_14: 468265852
+      Portal Red Sprite_15: 93755879
+      Portal Red Sprite_16: -67135109
+      Portal Red Sprite_17: 1227569817
+      Portal Red Sprite_18: -1326191242
+      Portal Red Sprite_19: -1673224587
+      Portal Red Sprite_2: -1904041009
+      Portal Red Sprite_20: -748205810
+      Portal Red Sprite_21: 1584550393
+      Portal Red Sprite_3: -2058349094
+      Portal Red Sprite_4: 592859781
+      Portal Red Sprite_5: 830474651
+      Portal Red Sprite_6: 1054920360
+      Portal Red Sprite_7: 1568829029
+      Portal Red Sprite_8: 367061823
+      Portal Red Sprite_9: 1360824956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
