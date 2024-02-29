@@ -16,5 +16,5 @@ MonoBehaviour:
   maxStack: 64
   isStackable: 1
   type: 0
-  image: {fileID: 21300112, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
+  image: {fileID: 75600359, guid: a3a1266e1430bf74096fb3f479243bf0, type: 3}
   description: 
