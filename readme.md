@@ -32,10 +32,10 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 
 ## Semaine 4 - Le portail
 - Portail avec 3 états : 🛠️
-	- Ready ❌
-	- CoolDown ❌
-	- Disabled ❌
- - Entrée dans le portail par collision ❌
+	- Ready ✅
+	- CoolDown ✅
+	- Closed ✅
+ - Entrée dans le portail par collision ✅
  - Si on rentre dans le portail alors qu'il est en cooldown, alors il devient Disabled ❌
 
 ## Semaine 5 - Intéragir avec le monde
@@ -43,13 +43,3 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 - 2 types de piège dans gameworld, déclenché en marchant dessus ❌
 	- Vie : Enlève de la vie au joueur ❌
    	- Vitesse : Ralenti la vitesse du joueur pour un temps donné ❌
-
-## To-do list
-
-- Portail entre les mondes avec les états
-- Système de craft
-- Faire les boutons du main menu
-- Faire le remove de l'inventaire
-- Systeme d'outils/Armes
-- Faire un nouveau perso avec un Animator
-- Faire les menus UI du jeu
