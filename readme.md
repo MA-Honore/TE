@@ -28,7 +28,7 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 ## Semaine 3 - Les Scènes
 - MainMenu ✅
 - GameWorld 🛠️
-- HubWorld 🛠️
+- HubWorld ✅
 
 ## Semaine 4 - Le portail
 - Portail avec 3 états : 🛠️
