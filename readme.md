@@ -40,6 +40,6 @@ Bienvenue sur notre repo pour notre jeu Unity de ce semestre ! 👋
 
 ## Semaine 5 - Intéragir avec le monde
 - Pouvoir Intéragir avec les objets interactables (coffres, ressources, outils, ...), avec distance paramétrable ❌
-- 2 types de piège dans gameworld, déclenché en marchant dessus ❌
-	- Vie : Enlève de la vie au joueur ❌
-   	- Vitesse : Ralenti la vitesse du joueur pour un temps donné ❌
+- 2 types de piège dans gameworld, déclenché en marchant dessus ✅
+	- Vie : Enlève de la vie au joueur ✅
+   	- Vitesse : Ralenti la vitesse du joueur pour un temps donné ✅
